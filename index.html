@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section class="calculator-container">
+        <span class="info">basic calculator</span>
+        <input readonly type="text"  class="exp">
+        <input readonly type="text" class="display-box">
+        <div class="btn btn-ce" onclick="ce()">ce</div>
+        <div class="btn btn-c" onclick="c()">c</div>
+        <div class="btn btn-x" onclick="erase()">x</div>
+        <div class="btn btn-1/x" onclick="inverse()">1/x</div>
+        <div class="btn btn-x**2" onclick="sqr()">x<sup>2</sup></div>
+        <div class="btn btn-sqrt(x)" onclick="sqRoot()">rootx</div>
+        <div class="btn btn-^" onclick="pow()">^</div>
+        <div class="btn btn-%" onclick="perc()">%</div>
+        <div class="btn btn-7" onclick="add7()">7</div>
+        <div class="btn btn-8" onclick="add8()">8</div>
+        <div class="btn btn-9" onclick="add9()">9</div>
+        <div class="btn btn-*" onclick="mul()">*</div>
+        <div class="btn btn-/" onclick="div()">/</div>
+        <div class="btn btn-4" onclick="add4()">4</div>
+        <div class="btn btn-5" onclick="add5()">5</div>
+        <div class="btn btn-6" onclick="add6()">6</div>
+        <div class="btn btn-+" onclick="plus()">+</div>
+        <div class="btn btn--" onclick="minus()">-</div>
+        <div class="btn btn-1" onclick="add1()">1</div>
+        <div class="btn btn-2" onclick="add2()">2</div>
+        <div class="btn btn-3" onclick="add3()">3</div>
+        <div class="btn btn-rem" onclick="rem()">rem</div>
+        <div class="btn-equal" onclick="equal()"> =</div>
+        <div class="btn btn-+/-" onclick="negate()">+/-</div>
+        <div class="btn btn-0" onclick="addZero()">0</div>
+        <div class="btn btn-." onclick="addDec()">.</div>
+        <div class="btn btn-mod" onclick="absolute()">mod</div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
