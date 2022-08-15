@@ -18,7 +18,8 @@ body{
 }
 
 .info{
-    grid-column:4/-1;
+    grid-column:2/-1;
+    text-align:right;
 }
 .exp{
     grid-column:1/-1;
