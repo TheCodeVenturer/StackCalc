@@ -1,6 +1,8 @@
 # CALCULATOR
 
 ***A Frontend Project***
+<br/>
+<br/>
 ![Calculator Image](./calculator.png)
 
 ---
