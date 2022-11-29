@@ -1,6 +1,7 @@
 # CALCULATOR
 
 ***A Frontend Project***
+![Calculator Image](./calculator.png)
 
 ---
 Hii everyone, Welcome to ReadMe of This project
