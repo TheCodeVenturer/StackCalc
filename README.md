@@ -10,10 +10,10 @@ Hii everyone, Welcome to ReadMe of This project
 This is a calculator website
 
 ## Tools/Techonologies Used
--VSCode
--HTML
--CSS
--JAVASCRIPT
+- VSCode
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Idea used
 - Used Stack for the calculation
