@@ -1,3 +1,11 @@
+const alertBox = document.querySelector(".alert");
+const closeAlert =()=>{
+  alertBox.style.display="none";
+}
+if(window.innerWidth<900){
+  closeAlert();
+}
+/* Calculator Function */
 class stack {
   constructor() {
     this.top = -1;

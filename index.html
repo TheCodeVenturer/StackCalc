@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Calculator</title>
+    <link rel="icon" type="image/png" href="./calculator.png">
+    <title>StackCalc</title>
 </head>
 <body>
+    <div class="alert">
+        <span class="closebtn" onclick="closeAlert()">&times;</span>
+        You can Use Your Keyboard Buttons to control the calculator
+    </div>
     <section class="calculator-container">
-        <span class="info">calculator by niraj</span>
+        <span class="info">StackCalc</span>
         <input readonly type="text"  class="exp">
         <input readonly type="text" class="display-box">
         <div class="btn btn-ce" onclick="ce()">ce</div>
